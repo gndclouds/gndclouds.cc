@@ -1,0 +1,22 @@
+---
+layout: category
+title: research
+permalink: /research/
+---
+<h1>From time to time I get deep into topic. When that happens it ends up here in the form of <a href="#">collections</a>, <a href="#">reports</a>, and <a href="#">essays</a>. What was your last <a href="#">tanget / need batter name</a>?</h1>
+<br>
+<br>
+<div class="category">
+{% for post in site.categories.research %}
+
+  <div href="{{post.source_url}}">
+    <h2><a href="{{post.permalink}}">{{post.title}}</a></h2>
+    <p>{{post.date}}</p>
+    {% if post.img %}
+      <img class="row__img" src="{{ post.img }}" alt="{{ post.title }}">
+    {% endif %}
+  </div>
+{% endfor %}
+
+
+<!-- <h2><a href="{{post.source_url}}">{{post.title}} ↘︎</a></h2> -->

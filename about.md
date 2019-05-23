@@ -4,21 +4,23 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
-You can find the source code for Minima on GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I work with organizations to research the humans at the center of their products and services. This has lead to me working at research labs within companies for the past few years.
 
-You can find the source code for Jekyll on GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Currently, I'm shifting my focus to regaining my cognitive and creative freedom as an [#IndieMaker](). This means that instead of treating personal projects as side projects they will be what I dedicate my time to daily.
 
-You can find the source code for this Now deployed example on GitHub:
-[now-examples](https://github.com/zeit/now-examples)
-
-You can find more information on ZEIT Now in the ZEIT docs:
-[ZEIT Docs](https://zeit.co/docs)
+Enter, [Tiny Factories](https://tinyfactories.space) a tribe of indie makers helping each other to ship products.
 
 
-[jekyll-organization]: https://github.com/jekyll
+Some recent project that I launched are:
+
+- OOAK
+
+
+- Component Guide
+
+
+- Timy Factoiers
+
+
+- Oh Dot Zero

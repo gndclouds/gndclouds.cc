@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Blue Print 2016"
+date:   2016-11-23 03:28:01 +0000
+description:
+f_image:
+permalink:
+categories: client
+tag:
+  - IDEO CoLab
+language: en
+---
+
+
+# Blue Print 2016

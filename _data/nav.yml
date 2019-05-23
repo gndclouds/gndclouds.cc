@@ -1,0 +1,17 @@
+docs_list_title: ACME Documentation
+docs:
+
+- title: intro
+  url: /index.html
+
+- title: clients
+  url: /clients
+
+- title: research
+  url: /research
+
+- title: projects
+  url: /projects
+
+- title: notes
+  url: /blog

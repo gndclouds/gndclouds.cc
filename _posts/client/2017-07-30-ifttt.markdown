@@ -1,0 +1,129 @@
+---
+layout: post
+title:  "IFTTT Maker Platform"
+date:   2017-07-30 03:28:01 +0000
+description:
+f_image:
+permalink: /ifttt/
+categories: client
+tag:
+language: en
+---
+
+
+<div class="row page-section">
+  <div class="col-12">
+    <p>In June of 2017 I lead user research phase to determine the viability for a new product called Maker Platform. Established and managed the first community of makers who used IFTTT. Documented and developed case studies to determine how
+      IFTTT’s products could evolve to better match the demand of IOT and affiliated systems. Included is a selected set of work.</p>
+
+    <strong>Intro</strong>
+
+    <p>During my two month contract with IFTTT I worked with the Platform team and Marketing team to research a new tool which was being released to makers called the Maker Platform. The tools was a variant of what was offered to IFTTT partners like
+      Nest, Microsoft, etc. with a few modifications. The goal was to research the product with an alpha and beta testing community as it was in active development.
+    </p>
+    <div class="row page-section">
+      <div class="col-12">
+        <strong>Research</strong>
+      </div>
+      <div class="col-6">
+        <p>During the research phase I conducted research interviews to determine how makers, individuals who created their own Applets on ifttt.com, currently used the platform and what we could do to allow them to make even more awesome Applets.
+          After interviewing participants over a course of a few weeks I created a research readout to act as a summary of findings form internal and external user research, secondary research, FullStory sessions, and ongoing community engagement
+          with the Maker Platform Beta. Below I have included selected assets from the research.</p>
+      </div>
+      <div class="col-6">
+        <img src="https://github.com/gndclouds/ifttt/blob/master/docs/assets/media/ifttt-community-landscape-1.png?raw=true" alt="Landscape of Content Producer Profiles">
+      </div>
+    </div>
+
+  </div>
+
+
+  <div class="row page-section">
+    <div class="col-12">
+      <strong>Evolution of IFTTT FORMULA</strong>
+
+      <p>Many alternatives to IFTTT have focused on features as IFTTT has focused on building a network of services users love. This particular project focused on providing and building some of “expected features” back into the IFTTT platform. There
+        was a need to highlight the evolution of the IFTTT formula as part of the research identified a need to contextualize where the IF This Then That formula started and where it is going in order to understand the needed infrastructure to
+        support users.</p>
+      <img style="box-shadow: 0px 0px;" src="https://github.com/gndclouds/ifttt/blob/master/docs/assets/media/Evolution-of-Formula.png?raw=true" alt="">
+    </div>
+
+
+
+    <div class="col-12">
+      <br>
+      <br>
+      <br>
+      <strong>Anatomy of an Applet</strong>
+
+      <p>Applets can be thought of in four levels of complexity and three ways of manipulation.</p>
+
+      <img style="box-shadow: 0px 0px;" src="https://github.com/gndclouds/ifttt/blob/master/docs/assets/media/Anatomy-of-Applet-2d.png?raw=true" alt="">
+      <br>
+      <br>
+      <ul>
+        <li>Layer One - Summary of the function of the Applet</li>
+        <li>Layer Two - Summary of the function and the state of the Applet</li>
+        <li>Layer Three - Selector for customizations and notifications</li>
+        <li> Layer Four - Composition layer where you can create Applets using Triggers, Filters, and Actions</li>
+      </ul>
+
+      <div class="col-12">
+        <br>
+        <br>
+        <br>
+        <div class="row page-section">
+          <div class="col-6">
+
+            <strong>Build</strong>
+
+            <p>Phase two focused on building out the next version of the Maker platform. This was broken into building out the documentation for the new Applet Composer, a Maker community and a new Maker profile.</p>
+          </div>
+          <div class="col-6">
+            <img style="box-shadow: 0px 0px;" src="https://github.com/gndclouds/ifttt/blob/master/docs/assets/media/Maker-Landing-Wireframe.png?raw=true" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12">
+        <br><br><br>
+        <div class="row page-section">
+          <div class="col-6">
+            <img style="box-shadow: 0px 0px;" src="https://github.com/gndclouds/ifttt/blob/master/docs/assets/media/Screen-Shot-2017-07-12-at-11-09-20-PM.png?raw=true" alt="">
+          </div>
+          <div class="col-6">
+            <strong>Maker Documentation</strong>
+            <p>Designed the documentation to teach new makers how to create apps for the platform.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="col-12">
+      <div class="row page-section">
+        <div class="col-6">
+          <strong>Maker Community Page</strong>
+          <p>Created the first 20 Applets for the community based on data trends for popular products and services.</p>
+        </div>
+        <div class="col-6">
+          <img style="box-shadow: 0px 0px;" src="https://github.com/gndclouds/ifttt/blob/master/docs/assets/media/Screen-Shot-2017-07-12-at-11-09-27-PM.png?raw=true" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12">
+      <strong>Future Explorations</strong>
+
+
+      <p>I dedicated part of my time to mapping out possible topics for future build sprints at IFTTT in order to diversify the way employees think about the potential of what IFTTT could become:</p>
+      <ul>
+        <li>Creating a chatbot interface for IFTTT and its partner services.</li>
+        <li>IFTTT as an OAuth authenticator for non-screen based devices.</li>
+        <li>IFTTT as the operating system for your home.</li>
+      </ul>
+    </div>
+
+
+
+  </div>

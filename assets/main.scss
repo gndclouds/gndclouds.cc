@@ -1,0 +1,58 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@import "cumulonimbus";
+
+
+.full-bleed{
+  width: 100vw;
+  padding: 2vh 2vw 2vh 2vw;
+}
+// .row__img {
+//   display: none;
+//   position: absolute;
+//   max-width: 500px;
+//   max-height: 500px;
+//   top: random(250) - random(250) + px;
+//   left: random(500) + px;
+//   z-index: -1;
+//   opacity: 0;
+//   transition: opacity 500ms;
+// }
+
+.hover_img {
+  position:relative;
+}
+.hover_img span {
+  position:absolute;
+  display:none;
+  z-index:99;
+}
+.hover_img a:hover {
+  display:block;
+  width: 80vw;
+  // max-width: 500px;
+  // max-height: 500px;
+  // top: random(250) - random(250) + px;
+  // left: random(500) + px;
+  // z-index: -1;
+  // transition: opacity 500ms;
+}
+
+.intro{
+  padding: 10vh 0 10vh 0;
+  font-weight: 400;
+  font-size: 48px;
+  color: #000000;
+  letter-spacing: 0;
+}
+
+.category{
+  padding: 0 0 10vh 0;
+}
+.post-list{
+  padding: 5vh 0 0 0;
+  h2{
+    font-size: 36px;
+  }
+}

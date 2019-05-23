@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+    {%- include header.html -%}
+      <main class="page-content" aria-label="Content">
+        <div class="container">
+          {{ content }}
+        </div>
+      </main>
+    {%- include footer.html -%}
+  </body>
+  <script>
+    (function() {
+      var cx = '000124122121016203706:yoijr22b2m8';
+      var gcse = document.createElement('script');
+      gcse.type = 'text/javascript';
+      gcse.async = true;
+      gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(gcse, s);
+    })();
+  </script>
+  <gcse:search></gcse:search>
+</html>

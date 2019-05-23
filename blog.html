@@ -1,0 +1,16 @@
+---
+layout: category
+title: blog
+permalink: /blog/
+---
+
+<div class="intro">
+  <h1>As part of my <a href="#">exploratory learning</a> I try to make something every few days. All of those <a href="#">sketches</a>, <a href="#">workflows</a>, <a href="#">notes</a>, <a href="#">essays</a>, <a href="#">things a</a>, and <a href="#">things b</a> end up hear.</h1>
+</div>
+
+<div class="category">
+{% for post in site.categories.blog %}
+    <div class="hover_img post-list">
+       <a href="{{post.permalink | prepend: site.baseul }}"><h2>{{post.title}}</h2><span><img src="{{post.f_image}}" alt="{{post.title}}" height="auto" /></span></a>
+    </div>
+{% endfor %}

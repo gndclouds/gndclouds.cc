@@ -1,0 +1,24 @@
+---
+layout: category
+title: projects
+permalink: /projects/
+---
+
+
+<h1>Welcome to my tiny ventures! Here you can find <a href="#">tools</a>, <a href="#">projects</a>, and <a href="#">something else</a>. If you scroll back far enough you will even find work from <a href="#">my school</a>.</h1>
+<br>
+<br>
+<div class="category">
+{% for post in site.categories.ventures %}
+
+  <div href="{{post.source_url}}">
+    <h2><a href="{{post.permalink}}">{{post.title}}</a></h2>
+    <p>{{post.date}}</p>
+    {% if post.img %}
+      <img class="row__img" src="{{ post.img }}" alt="{{ post.title }}">
+    {% endif %}
+  </div>
+{% endfor %}
+
+
+<!-- <h2><a href="{{post.source_url}}">{{post.title}} ↘︎</a></h2> -->

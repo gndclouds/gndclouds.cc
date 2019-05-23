@@ -1,4 +1,28 @@
-# Jekyll on ZEIT Now
+# gndclouds.cc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----
+
 
 This directory is a brief example and starter app for [Jekyll](https://jekyllrb.com/), ready to deploy on [ZEIT Now](https://zeit.co/now).
 
@@ -44,4 +68,3 @@ For more resources on how to configure your new Jekyll site to do more with Now 
 - [Learn how to alias your deployment to a domain or other unique shareable URLs](https://zeit.co/docs/v2/domains-and-aliases/introduction)
 
 For more information on Jekyll itself, [see their documentation](https://jekyllrb.com/docs/).
-

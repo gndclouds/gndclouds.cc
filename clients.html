@@ -1,0 +1,21 @@
+---
+layout: category
+title: clients
+permalink: /clients/
+---
+
+
+<h1>For the last few years I have been working as a designer at different types of orginizations aross a multitude of <a href="#">topics</a>. Add some way to talk about UX, UX, UXR, Visual, and ... .</h1>
+<br>
+<br>
+<div class="category">
+{% for post in site.categories.client %}
+
+  <div href="{{post.source_url}}">
+    <h2><a href="{{post.permalink}}">{{post.title}}</a></h2>
+    <p>{{post.date}}</p>
+    {% if post.img %}
+      <img class="row__img" src="{{ post.img }}" alt="{{ post.title }}">
+    {% endif %}
+  </div>
+{% endfor %}

@@ -1,0 +1,42 @@
+<div class="container full-bleed">
+  <nav>
+    <div class="row site-nav">
+      <div class="col-md-6">
+        <span class="pull-left">
+
+          <ul>
+            <li><a href="{{ my_page.url | relative_url }}"></a>— {{ page.title }}</li>
+             {% for item in site.data.nav.docs %}
+             <li {% if page.url contains item.url %}class="active"{% endif %}>
+               <a href="{{ item.url }}">+ {{ item.title }} <img src="" alt=""></a>
+             {% endfor %}
+          </ul>
+          <!-- <ul>
+            <li><a href="{{ my_page.url | relative_url }}"></a>— {{ page.title }}</li>
+            {% for item in site.pages %}
+              <li {% if page.url contains item.url %}class="active"{% endif %}>
+                <a href="{{ item.url }}">- {{ item.title }}</a>
+              </li>
+          {% endfor %}
+          </ul> -->
+        </span>
+      </div>
+      <div class="col-md-6 pull-right">
+        <span class="pull-right">
+          <!-- <form class="form-inline mt-2 mt-md-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+
+          </form> -->
+          <!-- {% include search.html %} -->
+        </span>
+      </div>
+    </div>
+  </nav>
+</div>
+
+<!-- {% if page.url == "/index.html" %}
+   <h1>...</h1>
+{% endif %} -->
+
+
+<!-- https://jekyllrb.com/tutorials/navigation/ -->
