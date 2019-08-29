@@ -1,10 +1,9 @@
-{"version":2,
+{
+  "version":2,
   "name":"gndclouds.cc",
-  "builds":[
-    {"src":"build.sh","use":"@now/static-build",
-    "config": { "distDir": "/_site" }
+  "builds":[{"src":"build.sh",
+    "use":"@now/static-build",
+    "config":{"distDir":"_site"}
     }
     ]
   }
-
-  

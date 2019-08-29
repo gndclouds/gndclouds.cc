@@ -21,13 +21,13 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: gndclouds
 github_username:  gndclouds
-arena_username:
-dribble_username:
-patreon_username:
-
+arena_username: gndclouds
+dribble_username: gndclouds
+patreon_username: gndclouds
+ßÍ
 # Build settings
 markdown: kramdown
-theme: cumulonimbus
+theme: minima
 plugins:
   - jekyll-feed
 
